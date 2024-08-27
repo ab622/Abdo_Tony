@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the Titanic dataset
-df = pd.read_csv('D:\\Vs Code\\Data Sets Projects\\Titanic Data set\\train.csv')
+df = pd.read_csv('train.csv')
 
 # Prepare data for figures
 numeric_df = df.select_dtypes(include='number').dropna()
